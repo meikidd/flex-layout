@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+header, footer {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #7dbcea;
+}
+article {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  min-height: 300px;
+  background-color: #108ee9;
+}
