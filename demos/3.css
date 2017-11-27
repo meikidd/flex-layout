@@ -1,15 +1,15 @@
 body {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+}
+aside {
+  flex: none;
 }
 .content {
   flex: auto;
   display: flex;
+  flex-direction: column;
 }
 .content article {
   flex: auto;
-}
-.content aside {
-  flex: none;
 }

@@ -5,6 +5,9 @@ header, footer, article, aside {
   padding: 20px;
   color: #fff;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header, footer {
   background-color: #7dbcea;
