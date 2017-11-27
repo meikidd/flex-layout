@@ -1,4 +1,4 @@
-<!-- Sticky Footer -->
+<!-- Sticky Header -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,16 +6,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>demo 1 - Sticky Footer</title>
+  <title>demo 4 - Sticky Header</title>
   <link rel="stylesheet" href="./preset.css">
   <style>
   body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-top: 60px;
+  }
+  header {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
   }
   article {
     flex: auto;
+    height: 1000px;
   }
   </style>
 </head>

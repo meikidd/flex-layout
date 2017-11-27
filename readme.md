@@ -1,6 +1,6 @@
 # Flex Layout
 
-## Sticky Footer Layout
+## Sticky Footer
 
 [demo link](./demos/1.html)
 
@@ -29,7 +29,7 @@ article {
 
 [demo link](./demos/2.html)
 
-![demo 1 - Sticky Footer](./assets/images/demo2.png)
+![demo 2 - Fixed-Width Side Bar](./assets/images/demo2.png)
 
 ```html
 <body>
@@ -61,7 +61,7 @@ body {
 
 [demo link](./demos/3.html)
 
-![demo 1 - Sticky Footer](./assets/images/demo3.png)
+![demo 3](./assets/images/demo3.png)
 
 ```html
 <body>
@@ -89,5 +89,40 @@ aside {
 }
 .content article {
   flex: auto;
+}
+```
+
+## Sticky Header
+
+[demo link](./demos/4.html)
+
+![demo 4 - Sticky Header](./assets/images/demo4.png)
+
+```html
+<body>
+  <header>HEADER</header>
+  <article>CONTENT</article>
+  <footer>FOOTER</footer>
+</body>
+```
+
+```css
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+header {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+}
+article {
+  flex: auto;
+  height: 1000px;
 }
 ```
