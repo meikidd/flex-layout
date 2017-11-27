@@ -2,8 +2,8 @@ body {
   margin: 0;
 }
 header, footer, article, aside {
-  padding: 20px;
   color: #fff;
+  min-height: 60px;
   text-align: center;
   display: flex;
   align-items: center;

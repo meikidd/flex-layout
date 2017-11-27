@@ -131,7 +131,7 @@ article {
 
 [demo link](./demos/5.html)
 
-![demo 4 - Sticky Sidebar](./assets/images/demo5.png)
+![demo 5 - Sticky Sidebar](./assets/images/demo5.png)
 
 
 ```html
@@ -141,6 +141,7 @@ article {
     <p>item</p>
     <p>item</p>
     <!-- many items -->
+    <p>item</p>
   </aside>
   <div class="content">
     <header>HEADER</header>
@@ -151,19 +152,19 @@ article {
 ```
 
 ```css
+body {
+  min-height: 100vh;
+  display: flex;
+}
 aside {
+  flex: none;
   width: 200px;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  padding: 20px 0;
-  display: block;
+  height: 100vh;
   overflow-y: auto;
+  display: block;
 }
 .content {
-  min-height: 100vh;
-  padding-left: 200px;
+  flex: auto;
   display: flex;
   flex-direction: column;
 }
