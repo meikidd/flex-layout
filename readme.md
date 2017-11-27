@@ -25,11 +25,11 @@ article {
 }
 ```
 
-## Fixed-Width Side Bar
+## Fixed-Width Sidebar
 
 [demo link](./demos/2.html)
 
-![demo 2 - Fixed-Width Side Bar](./assets/images/demo2.png)
+![demo 2 - Fixed-Width Sidebar](./assets/images/demo2.png)
 
 ```html
 <body>
@@ -124,5 +124,50 @@ header {
 article {
   flex: auto;
   height: 1000px;
+}
+```
+
+## Sticky Sidebar
+
+[demo link](./demos/5.html)
+
+![demo 4 - Sticky Sidebar](./assets/images/demo5.png)
+
+
+```html
+<body>
+  <aside>
+    ASIDE
+    <p>item</p>
+    <p>item</p>
+    <!-- many items -->
+  </aside>
+  <div class="content">
+    <header>HEADER</header>
+    <article>CONTENT</article>
+    <footer>FOOTER</footer>
+  </div>
+</body>
+```
+
+```css
+aside {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px 0;
+  display: block;
+  overflow-y: auto;
+}
+.content {
+  min-height: 100vh;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.content article {
+  flex: auto;
 }
 ```
