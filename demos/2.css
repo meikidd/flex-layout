@@ -10,3 +10,6 @@ body {
 .content article {
   flex: auto;
 }
+.content aside {
+  flex: none;
+}  
