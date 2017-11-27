@@ -24,3 +24,35 @@ article {
   flex: auto;
 }
 ```
+
+## Fixed Width Side Bar
+
+[demo link](./demos/2.html)
+
+![demo 1 - Sticky Footer](./assets/images/demo2.png)
+
+```html
+<body>
+  <header>HEADER</header>
+  <div class="content">
+    <aside>ASIDE</aside>
+    <article>CONTENT</article>
+  </div>
+  <footer>FOOTER</footer>
+</body>
+```
+
+```css
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: auto;
+  display: flex;
+}
+.content article {
+  flex: auto;
+}
+```

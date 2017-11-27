@@ -1,16 +1,19 @@
 body {
   margin: 0;
 }
-header, footer {
+header, footer, article, aside {
   padding: 20px;
   color: #fff;
   text-align: center;
+}
+header, footer {
   background-color: #7dbcea;
 }
+aside {
+  width: 200px;
+  background-color: #3ba0e9;
+}
 article {
-  padding: 20px;
-  color: #fff;
-  text-align: center;
   min-height: 300px;
   background-color: #108ee9;
 }
