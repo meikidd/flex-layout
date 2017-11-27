@@ -5,9 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>demo 1</title>
+  <title>demo 2</title>
   <link rel="stylesheet" href="./preset.css">
-  <link rel="stylesheet" href="./2.css">
+  <style>
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: auto;
+    display: flex;
+  }
+  .content article {
+    flex: auto;
+  }
+  .content aside {
+    flex: none;
+  }
+  </style>
 </head>
 <body>
   <header>HEADER</header>
