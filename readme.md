@@ -153,13 +153,12 @@ article {
 
 ```css
 body {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
 }
 aside {
   flex: none;
   width: 200px;
-  height: 100vh;
   overflow-y: auto;
   display: block;
 }
@@ -167,6 +166,7 @@ aside {
   flex: auto;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 .content article {
   flex: auto;
