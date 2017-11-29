@@ -57,7 +57,7 @@ body {
 }
 ```
 
-## 左右布局
+## Sidebar
 
 [demo link](./demos/3.html)
 
